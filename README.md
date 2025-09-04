@@ -66,6 +66,8 @@ With the following software and hardware list you can run all code files present
      console.log("Bucket List", result);
   });
   ```
+* Page 39: The code line `import { createSupabaseClient } from '@/supabase-client';` should be `import { createSupabaseClient } from "@/supabase-utils/client";`.
+
 * Page 171, Under the section _Fetching tenant data with the restrictive Supabase client_, there is a duplicated paragraph that may cause confusion.
 
 	**Current Text (duplicated content)**: _The paragraph starting with “As we can fetch data for that tenant from the database right in the TenantName component with the tenant ID...” is redundant_
